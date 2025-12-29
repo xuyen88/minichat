@@ -16,6 +16,15 @@ A privacy-first Super App built on Midnight Network (Cardano) combining Secure C
 - **AI Integration:** OpenAI/Llama 3 via Privacy Proxy.
 - **Protocol:** Matrix Protocol.
 
+**## 📈 Lộ trình phát triển (Catalyst Fund Proposal)**
+- **Tháng 1-2:** Hoàn thiện Core Chat & Tích hợp SDK Midnight.
+- **Tháng 3-4:** Ra mắt Ví ZK & Trợ lý AI Assistant (Alpha).
+- **Tháng 5-6:** Kết nối VNeID & Thử nghiệm tính năng "Earn-to-Learn".
+
+**## 🤝 Tham gia cùng chúng tôi**
+Dự án đang trong giai đoạn R&D. Chúng tôi hoan nghênh mọi sự đóng góp từ cộng đồng Cardano/Midnight.
+
+## Technical Architecture
 
 ```mermaid
 graph TD
@@ -26,13 +35,3 @@ graph TD
     A -->|Anonymized Query| F[AI Privacy Proxy]
     F -->|Process| G[LLM Model]
     D -->|Release Rewards| A
-
-
-
-**## 📈 Lộ trình phát triển (Catalyst Fund Proposal)**
-- **Tháng 1-2:** Hoàn thiện Core Chat & Tích hợp SDK Midnight.
-- **Tháng 3-4:** Ra mắt Ví ZK & Trợ lý AI Assistant (Alpha).
-- **Tháng 5-6:** Kết nối VNeID & Thử nghiệm tính năng "Earn-to-Learn".
-
-**## 🤝 Tham gia cùng chúng tôi**
-Dự án đang trong giai đoạn R&D. Chúng tôi hoan nghênh mọi sự đóng góp từ cộng đồng Cardano/Midnight.
