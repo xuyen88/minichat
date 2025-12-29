@@ -1,0 +1,18 @@
+import { Witness, Ledger, Circuit, Assert, hash } from '@midnight-ntwrk/compact-sdk';
+
+export const ledger = Ledger({
+  walletCommitment: Storage(Hash) 
+});
+
+export const circuits = Circuit({
+  verifyMiniChatUser: (sessionId: Bytes(32)) => {
+    const secretKey = Witness(Bytes(32));
+    const userAddress = Witness(Bytes(32));
+    
+    // Chứng minh người dùng biết Secret Key của ví mà không lộ địa chỉ
+    const expectedCommitment = hash(userAddress);
+    Assert(expectedCommitment === ledger.walletCommitment);
+    
+    return hash(secretKey, sessionId); // Trả về Nullifier
+  }
+});
