@@ -16,7 +16,6 @@ A privacy-first Super App built on Midnight Network (Cardano) combining Secure C
 - **AI Integration:** OpenAI/Llama 3 via Privacy Proxy.
 - **Protocol:** Matrix Protocol.
 
-## Technical Architecture
 
 ```mermaid
 graph TD
