@@ -17,6 +17,8 @@ A privacy-first Super App built on Midnight Network (Cardano) combining Secure C
 - **Protocol:** Matrix Protocol.
 
 ## Technical Architecture
+
+```mermaid
 graph TD
     A[User App - Flutter] -->|Request ZK Proof| B[Client-side Prover]
     B -->|Submit Transaction| C[Midnight Network]
