@@ -36,3 +36,8 @@ Q3/2026: Mở rộng cổng nghiên cứu thị trường B2B và chương trìn
 
 5. Kết luận
 MiniChat là cầu nối đưa công nghệ bảo mật cao cấp của Midnight Network đến với hàng triệu người dùng phổ thông, tạo ra một môi trường giao tiếp văn minh, bảo mật và có giá trị kinh tế.
+
+## 6. Tokenomics & Utility
+- **DUST:** Được sử dụng làm phí gas cho các giao dịch bảo mật và thanh toán các dịch vụ Mini-app.
+- **NIGHT:** Token quản trị (Governance). Người nắm giữ NIGHT có quyền biểu quyết các tính năng mới của MiniChat.
+- **Reward Pool:** Doanh nghiệp nghiên cứu thị trường ký quỹ DUST vào Smart Contract để chi trả cho người dùng hoàn thành khảo sát qua cơ chế ZK-Verify.
