@@ -16,6 +16,16 @@ A privacy-first Super App built on Midnight Network (Cardano) combining Secure C
 - **AI Integration:** OpenAI/Llama 3 via Privacy Proxy.
 - **Protocol:** Matrix Protocol.
 
+## Technical Architecture
+graph TD
+    A[User App - Flutter] -->|Request ZK Proof| B[Client-side Prover]
+    B -->|Submit Transaction| C[Midnight Network]
+    C -->|Validate ZK Proof| D[Compact Smart Contract]
+    A -->|Encrypted Message| E[Matrix Messaging Server]
+    A -->|Anonymized Query| F[AI Privacy Proxy]
+    F -->|Process| G[LLM Model]
+    D -->|Release Rewards| A
+
 ## 📈 Lộ trình phát triển (Catalyst Fund Proposal)
 - **Tháng 1-2:** Hoàn thiện Core Chat & Tích hợp SDK Midnight.
 - **Tháng 3-4:** Ra mắt Ví ZK & Trợ lý AI Assistant (Alpha).
